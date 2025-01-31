@@ -1,13 +1,24 @@
 # Task Tracker CLI
 
-A simple command-line task management application written in Go.
+A simple command-line task management application written in Go, based on the [Task Tracker Project](https://roadmap.sh/projects/task-tracker) from roadmap.sh.
+
+## Features
+
+- Create, update and delete tasks
+- Mark tasks as in-progress or done 
+- List all tasks or filter by status
+- Persistent storage using JSON file
+- Simple command-line interface
 
 ## Installation
+
+### Prerequisites
+- Go 1.16 or higher
 
 ### Building from source
 ```bash
 git clone https://github.com/ellyx13/project-based-learning.git
-cd taskTrackers
+cd project-based-learning/go/taskTrackers
 go build -o task-cli main.go
 ```
 
